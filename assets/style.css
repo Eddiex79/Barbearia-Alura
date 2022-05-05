@@ -1,3 +1,5 @@
+/*Se vc está aqui é porque gostou do meu trabalho e 
+eu estou a procura de um estágio como front-end, se tiver alguma oportunidade eddiex79@gmail.com*/
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -156,6 +158,13 @@ td, th{
     margin: 0 0 1em;
     clear: left;
 }
+.titulo-principal: first-letter{
+    font-weight: bolder;
+}
+/*p: first-line{
+    font-style: italic
+    Deixa todas as primeiras linhas em itálico
+}*/
 .principal{
     padding: 3em 0;
     background: #fefefe;
@@ -212,7 +221,7 @@ td, th{
 /*.itens:nth-child(4) qualquee elemento entre parenteses
 ou last-child{}*/
 .itens: first-child{
-    font-weight: bold;
+    font-weight:bolder;
 }
 
 .imagem-beneficios{

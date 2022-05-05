@@ -236,7 +236,16 @@ ou last-child{}*/
 
 .imagem-beneficios{
     width: 60%;
+   /*opacidade 100%*/
+    opacity: 1;
+    /*delay de 400 milisegundos*/
+    transition: 400ms;
 }
+.imagem-beneficios:hover{
+     /*0.3 é 30%*/
+    opacity: 0.3;
+}
+
 
 
 .video{

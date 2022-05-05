@@ -155,11 +155,13 @@ td, th{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    /*Opacidadena de 0.3(30%) na cor 
+    color: rgba(0,0,0,0.3);*/
 }
-.titulo-principal: first-letter{
+/*.titulo-principal: first-letter{
     font-weight: bold;
 }
-/* p:first-line{
+ p:first-line{
     font-style: italic
    Deixa todas as primeiras linhas em itálico}
 .titulo-principal:first-letter{
@@ -240,6 +242,9 @@ ou last-child{}*/
     opacity: 1;
     /*delay de 400 milisegundos*/
     transition: 400ms;
+    /*10px no eixo X e 10px no eixo Y  no eixo Z espalhamento da sombra
+    box-shadow: X Y #000000;*/
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 .imagem-beneficios:hover{
      /*0.3 é 30%*/
@@ -253,5 +258,22 @@ ou last-child{}*/
     margin: 2em auto;
 }
 
+@media screen and (max-width: 480px){
+   .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
+        padding-left: 10px;
+        }
+
+
+h1 {
+    text-align: center}
+
+nav {
+    position: static;
+}
+ .lista-beneficios, .imagem-beneficios {
+     width: 100%;
+ }
+}
 /*Se vc está aqui é porque gostou do meu trabalho e 
 eu estou a procura de um estágio como front-end, se tiver alguma oportunidade eddiex79@gmail.com*/

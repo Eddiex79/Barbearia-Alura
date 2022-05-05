@@ -157,11 +157,19 @@ td, th{
     clear: left;
 }
 .titulo-principal: first-letter{
-    font-weight: bolder;
+    font-weight: bold;
 }
-/*p: first-line{
+/* p:first-line{
     font-style: italic
-    Deixa todas as primeiras linhas em itálico
+   Deixa todas as primeiras linhas em itálico}
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+.titulo-principal:before{
+    content:"["
+}
+.titulo-principal:after{
+    content:"]"
 }*/
 .principal{
     padding: 3em 0;
@@ -218,8 +226,12 @@ td, th{
 }
 /*.itens:nth-child(4) qualquee elemento entre parenteses
 ou last-child{}*/
-.itens: first-child{
+
+.itens:first-child{
     font-weight:bolder;
+}
+.itens:before{
+    content:"🟌";
 }
 
 .imagem-beneficios{

@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
     <title>Barbearia Alura</title>
 </head>
 
@@ -48,23 +48,37 @@
         <section class="mapa">
             <h3 class="titulo-principal">Nosso estabelecimento</h3>
             <p>Nosso estabelecimento está localizado no coração da cidade.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3988.0925890056105!2d-46.654339563645074!3d-23.564958429018844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salura%20sp!5e0!3m2!1spt-BR!2sbr!4v1651707038761!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
+            <div class="mapa-conteudo">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3988.0925890056105!2d-46.654339563645074!3d-23.564958429018844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salura%20sp!5e0!3m2!1spt-BR!2sbr!4v1651707038761!5m2!1spt-BR!2sbr"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         </section>
 
         <section class="beneficios">
-            
-                <h3 class="titulo-principal">Benefícios</h3>
-                <ul>
+
+            <h3 class="titulo-principal">Benefícios</h3>
+
+            <div class="conteudo-beneficios">
+                <ul class="lista-beneficios">
                     <li class="itens">Atendimento aos Clientes</li>
                     <li class="itens">Espaço diferenciado</li>
                     <li class="itens">Localização</li>
                     <li class="itens">Profissionais Qualificados</li>
-                </ul>
-                <img src="assets/img/beneficios.jpg" class="imagembeneficios">
-                <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <li class="itens">Pontualidade</li>
+                    <li class="itens">Limpeza</li>
+                </ul><img src="assets/img/beneficios.jpg" class="imagem-beneficios">
+            </div>
+
+
+            <div class="video"><iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></div>
         </section>
-       
+
     </main>
     <footer>
         <img src="assets/img/logo-branco.png" alt="Logo da Barbearia Alura">

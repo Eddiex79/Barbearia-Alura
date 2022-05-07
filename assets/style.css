@@ -62,7 +62,7 @@ produtos li:active{
 }
 
 .produtos li:hover {
-    font-size: 34px;
+    font-size: 30px;
 }
 .produtos h2 {
     /*font-size: 30px;*/
